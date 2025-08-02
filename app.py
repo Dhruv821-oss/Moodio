@@ -4,8 +4,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
 # ---- Spotify Setup ----
-SPOTIPY_CLIENT_ID = '1e345bf0ae9a4ed0a9ac7e2eb1aa3b5b'
-SPOTIPY_CLIENT_SECRET = 'dfa9a140133d4c3795522401849d18b3'
+SPOTIPY_CLIENT_ID = ''
+SPOTIPY_CLIENT_SECRET = ''
 
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
     client_id=SPOTIPY_CLIENT_ID,
@@ -86,3 +86,4 @@ if st.button("Find Playlist") and user_input.strip():
 # ---- Footer ----
 st.markdown("---")
 st.caption("Built with 🤖 Transformers, 🎶 Spotify, and ❤️ Streamlit")
+
