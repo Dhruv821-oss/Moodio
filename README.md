@@ -38,3 +38,6 @@ A smart Streamlit web app that recommends **Spotify playlists based on your curr
 
 🎧 Output: A Spotify playlist that matches the mood of **content** or **inspirational**.
 
+<img width="1880" height="858" alt="Screenshot 2025-08-06 201612" src="https://github.com/user-attachments/assets/015619f0-0909-4eb4-b2fd-70f6b91de793" />
+
+
